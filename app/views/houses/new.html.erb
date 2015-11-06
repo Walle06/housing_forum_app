@@ -1,0 +1,24 @@
+
+
+
+<br>
+<br>
+<%= form_for @house do |f| %>  
+ <%=f.label :size %>  
+  <%=f.text_field :size %> 
+ 
+
+  <%=f.label :location %>
+  <%=f.text_field :location %>
+  <br>
+  <br>
+
+  <%=f.label :address %>
+  <%=f.text_field :address %>
+<br>
+<br>
+  <%=f.label :contact %>
+  <%=f.text_area :contact %>
+
+  <%=f.submit :create %> 
+  <% end %>
