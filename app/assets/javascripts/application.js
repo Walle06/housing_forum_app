@@ -14,3 +14,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+<script src="/assests/mycustom.js"></script>
+<script src="/assets/cycle.js"></script>

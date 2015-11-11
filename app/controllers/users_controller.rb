@@ -1,11 +1,6 @@
 class UsersController < ApplicationController
 	def index
-		@users = User.all
-		if @users.present?
-			flash[:notice] = "yay,there are users!"
-		else
-			flash[:alert] = "sad face. no users"
-		end
+
 	end
 
   def show

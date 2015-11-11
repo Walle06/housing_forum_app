@@ -19,13 +19,16 @@
 	border-top-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
+	margin: 20px auto;
+	width: 500px;
+
  }
 body {
   background-image: url(/assets/nature.jpg);
   color: white;
   font: 14px/1.5 Helvetica, Arial, sans-serif;
-  margin: 20px auto;
-  width: 500px;
+  /*margin: 20px auto;*/
+  /*width: 500px;*/
 }
 a {
   color: #efaaca;
@@ -36,9 +39,56 @@ a {
 	font-size: 15pt;
 	position: absolute;
 	top: 0px;
-	left: 0px;
+	right: 0px;
 }
 #listing a{
 	color: white;
 	font-size: 15pt;
 }
+#social{
+	height: 50px;
+	width: 50%;
+	border:solid 2px yellow;
+	padding: 5px;
+	background: rgb(234,89,63);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	/*position: absolute;
+	bottom: 0px;
+	right: 0px;*/
+}
+.pics {  
+    height:  600px;  
+    width:   200px;  
+    padding: 0;  
+    margin:  0;  
+    /*float: left;*/
+    position: absolute;
+    top: 45px;
+    left: 0px;
+
+    } 
+ 
+.pics img {  
+    padding: 15px;  
+    border:  1px solid #ccc;  
+    background-color: rgb(234,89,63);  
+    width:  175px; 
+    height: 595px; 
+    position: absolute;
+    top:  0px; 
+    left: 0px;
+    
+} 
+
+
+
+
+
+
+
+
+
+
